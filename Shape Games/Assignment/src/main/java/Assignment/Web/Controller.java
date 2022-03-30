@@ -23,15 +23,7 @@ public class Controller {
     @Autowired
     private IRequestService reqService;
 
-    // 2 variante (getmapping, requestmapping)
 
-    // mapping all the incoming HTTP
-    // request URLs to the corresponding controller methods.
-    // The @GetMapping annotated methods in the @Controller annotated
-    // classes handle the HTTP GET requests matched with given URI expression.
-
-    // https://stackoverflow.com/questions/68226478/jsonobject-returns-emptyfalse-in-api-response
-    // https://www.baeldung.com/spring-request-param
 
     @GetMapping(value = "/weather/locations/{locationId}", produces = "application/json")
 
