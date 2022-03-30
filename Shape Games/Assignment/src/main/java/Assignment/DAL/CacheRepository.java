@@ -46,11 +46,3 @@ public class CacheRepository implements Assignment.DAL.Interfaces.ICacheReposito
       
 }
 
-// public class CacheRepoGetter{
-//     @Autowired
-//     private CacheRepository cacheRepo;
-//     public Interfaces.ICacheRepository Get(){
-//         return cacheRepo;
-//     }
-// }
-
